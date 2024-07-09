@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Sommerferie progress bar</title>
+</head>
+<body>
+    <header>
+        <h1>Sommerferie progress bar</h1>
+    </header>
+    <main>
+        <div id="info">
+            <h2>Prosent ferdig: <span id="percent-display-done">laster inn...</span></h2>
+            <h2>Prosent igjen: <span id="percent-display-left">laster inn...</span></h2>
+        </div>
+        <div id="visual-display-bar-container">
+            <div id="fill">
+                <div id="rest-removal-white"></div>
+            </div>
+        </div>
+        <h2 id="annet-format">Annet format</h2>
+        <table>
+            <tr>
+                <th colspan="3">Info in numbers</th>
+            </tr>
+            <tr>
+                <th>Tids format</th>
+                <th>Tid gått</th>
+                <th>Tid igjen</th>
+            </tr>
+            <tr>
+                <td>Dager</td>
+                <td id="dager-gatt">Laster inn...</td>
+                <td id="dager-igjen">Laster inn...</td>
+            </tr>
+            <tr>
+                <td>Timer</td>
+                <td id="timer-gatt">Laster inn...</td>
+                <td id="timer-igjen">Laster inn...</td>
+            </tr>
+            <tr>
+                <td>Minutter</td>
+                <td id="minutter-gatt">Laster inn...</td>
+                <td id="minutter-igjen">Laster inn...</td>
+            </tr>
+            <tr>
+                <td>Sekunder</td>
+                <td id="sekunder-gatt">Laster inn...</td>
+                <td id="sekunder-igjen">Laster inn...</td>
+            </tr>
+        </table>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
